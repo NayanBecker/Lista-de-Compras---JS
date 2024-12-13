@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <met  a name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Compras</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+
+    <main>
+      <div>
+        <h1 class="title">Compras da Semana</h1>
+      </div>
+
+      <div class="padding-inline-10px addNewIten">
+        <form>  
+          <input id="inItemName" type="text" placeholder="Adicione um novo item" required >
+          <div>
+            <button type="submit" id="subNewItem">Adicionar Item</button>
+          </div>
+        </div>
+      </form>
+      
+      <div id="shoppingList">
+        
+      </div>
+    </main>
+
+      <div id="deleteModal" class="modal">
+        <div class="modal-content">
+          <span>Item deletado com sucesso!</span>
+          <span><img src="Assets/Icons/cancel-01-stroke-rounded.svg" alt="Cancel"></span>
+        </div>
+      </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+
+</html>

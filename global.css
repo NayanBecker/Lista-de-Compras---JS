@@ -1,0 +1,88 @@
+* {
+  --background-secondary: #ffffff;
+  --background-primary: #f4f5fb;
+  --color-brand: #ca3884;
+  --color-brand-hover: #a52c6b;
+  --color-danger: #c93847;
+
+  --content-primary: #080b12;
+  --content-secondary: #374151;
+  --content-tertiary: #9ca3af;
+  --always-white: #ffffff;
+
+  --border-primary: #d1d5db;
+  --border-hover: #b9c2d0;
+  
+  padding: 0px;
+  margin: 0px;
+
+
+  /* Título */
+  .title {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: bold;
+  }
+
+  /* Rótulo */
+  .label {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+  }
+
+  /* Parágrafo */
+  .paragraph {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+  }
+
+  /* Link */
+  .link {
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 500;
+  }
+
+  .primaryButton {
+    max-width: 160px;
+    max-height: 44px;
+    background-color: var(--color-brand);
+    color: var(--always-white);
+    
+    &:hover {
+      background-color: var(--color-brand-hover);
+    }
+  }
+
+  .textField {
+    background-color: var(--background-primary);
+
+    border: solid var(--border-primary) 2px;
+  }
+  .textField:hover {
+    border: solid var(--border-hover) 2px;
+  }
+
+  .textField:focus-visible {
+    border: var(--color-brand-hover) 2px dashed;
+    border-radius: 3px;
+    outline: none;
+  }
+
+  
+
+
+  .padding-10px{
+    padding: 10px;
+  }
+  .padding-inline-10px{
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .items-center{
+
+    align-items: center;
+  }
+}
